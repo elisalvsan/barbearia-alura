@@ -57,6 +57,7 @@ nav a:hover {
 .titulo-principal {
   text-align: center;
   font-size: 2em;
+  font-weight: 700;
   margin-bottom: 1em;
   clear: left;
 }
@@ -88,7 +89,7 @@ nav a:hover {
 
 .mapa {
   padding: 3em 0;
-  background: linear-gradient(#fefefe,#888888);
+  background: linear-gradient(#fefefe, #888888);
 }
 
 .mapa p {
@@ -121,8 +122,19 @@ nav a:hover {
   font-weight: 700;
 }
 
+.itens:before {
+  content: "★";
+}
+
 .img-beneficios {
   width: 60%;
+  opacity: 1;
+  transition: 400ms;
+  box-shadow: 10px 10px 10px black;
+}
+
+.img-beneficios:hover {
+  opacity: 0.3;
 }
 
 .video {

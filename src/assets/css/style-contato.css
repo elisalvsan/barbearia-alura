@@ -64,7 +64,7 @@ legend {
   margin: 20px 0;
 }
 
-.botao-submit{
+.botao-submit {
   width: 40%;
   padding: 15px;
   background-color: orange;
@@ -77,9 +77,24 @@ legend {
   cursor: pointer;
 }
 
-.botao-submit:hover{
+.botao-submit:hover {
   background-color: rgb(247, 95, 12);
   transform: scale(1.2);
+}
+
+table {
+  margin: 20px 0 40px;
+}
+thead {
+  background-color: rgb(72, 69, 69);
+  color: white;
+  font-weight: bold;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 8px 15px;
 }
 
 footer {

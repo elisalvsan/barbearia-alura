@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* header */
@@ -105,6 +105,16 @@ th {
   padding: 8px 15px;
 }
 
+.div-horario select {
+  background: transparent;
+  width: 268px;
+  padding: 5px;
+  font-size: 16px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  height: 34px;
+}
+
 /* footer */
 
 footer {
@@ -117,4 +127,82 @@ footer {
   color: white;
   font-size: 13px;
   margin-top: 20px;
+}
+
+/*repositivo*/
+
+@media screen and (min-device-width: 340px) and (max-device-width: 481px) {
+  .container-header,
+  footer {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+    text-align: center;
+  }
+
+  nav a {
+    font-size: 19px;
+  }
+
+  .input-padrao,
+  .formulario label,
+  .div-horario {
+    width: 33%;
+    margin-left: 10px;
+  }
+
+  .container-contato {
+    margin-left: 10px;
+  }
+
+  table {
+    width: 30%;
+    margin: 0 0 20px 45px;
+  }
+
+  .botao-submit {
+    width: 30%;
+    margin: 0 0 0 45px;
+  }
+}
+
+@media screen and (min-device-width: 482px) and (max-device-width: 950px) {
+  .container-header{
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: relative;
+  }
+
+  .input-padrao,
+  .formulario label,
+  .div-horario {
+    width: 20%;
+    margin: 10px;
+  }
+
+  .container-contato {
+    margin-left: 10px;
+  }
+
+  table {
+    width: 30%;
+    margin: 0 0 10px 55px;
+  }
+
+  .botao-submit {
+    width: 30%;
+    margin: 0 0 0 55px;
+  }
 }

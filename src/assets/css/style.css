@@ -129,7 +129,7 @@ nav a:hover {
 .img-beneficios {
   width: 60%;
   opacity: 1;
-  transition: 400ms;
+  transition: 300ms;
   box-shadow: 10px 10px 10px black;
 }
 
@@ -154,4 +154,72 @@ footer {
   color: white;
   font-size: 13px;
   margin-top: 20px;
+}
+
+/*repositivo*/
+
+@media screen and (min-device-width: 340px) and (max-device-width: 481px) {
+  .container-header,
+  .principal,
+  .conteudo-beneficios,
+  .mapa-conteudo,
+  .video {
+    width: auto;
+  }
+
+  .principal,
+  .conteudo-beneficios {
+    margin: 10px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+    text-align: center;
+  }
+
+  nav a {
+    font-size: 19px;
+  }
+
+  .lista-beneficios,
+  .img-beneficios {
+    width: 100%;
+  }
+}
+
+@media screen and (min-device-width: 482px) and (max-device-width: 950px) {
+  .container-header,
+  .principal,
+  .conteudo-beneficios,
+  .mapa-conteudo,
+  .video {
+    width: auto;
+  }
+
+  .principal,
+  .conteudo-beneficios {
+    margin: 10px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+    text-align: center;
+  }
+
+  nav a {
+    font-size: 19px;
+  }
+
+  .lista-beneficios,
+  .img-beneficios {
+    width: 100%;
+  }
 }

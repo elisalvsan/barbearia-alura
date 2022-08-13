@@ -29,16 +29,33 @@
 
     <main>
         <form class="formulario">
-            <label for="nomesobrenome">Nome e sobrenome: </label>
-            <input type="text" id="nomesobrenome">
+            <label for="nomesobrenome">Nome Completo</label>
+            <input type="text" id="nomesobrenome" placeholder="Nome Completo">
 
-            <label for="email">E-mail: </label>
-            <input type="email" id="email">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="seuemail@dominio.com">
 
-            <label for="telefone">Telefone: </label>
-            <input type="text" id="telefone">
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" placeholder="(xx) xxxxx-xxxx">
 
-            <input type="submit"value="Enviar Formulário">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" cols="60" rows="10"></textarea>
+
+            <div class="container-contato">
+                <p>Como prefere o nosso contato</p>
+                <label for="radio-email">E-mail</label>
+                <input type="radio" name="contato" value="email" id="radio-email">
+
+                <label for="radio-telefone">Telefone</label>
+                <input type="radio" name="contato" value="telefone" id="radio-telefone">
+
+                <label for="radio-whatsapp">Whatsapp</label>
+                <input type="radio" name="contato" value="Whatsapp" id="radio-whatsapp">
+            </div>
+
+            <label><input type="checkbox">Gostaria de receber nossas novidades por email?</label></label>
+
+            <input type="submit" value="Enviar Formulário">
 
         </form>
     </main>

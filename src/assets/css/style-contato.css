@@ -37,28 +37,32 @@ nav a:hover {
   text-decoration: underline;
 }
 
-main{
+main {
   width: 940px;
   margin: 0 auto;
 }
 
-.formulario{
+.formulario {
   margin: 40px 0;
 }
 
-.formulario label{
+.formulario label,
+p {
   display: block;
   font-size: 20px;
   margin-bottom: 10px;
 }
 
-.formulario input{
+.input-padrao {
   display: block;
   margin-bottom: 20px;
   padding: 10px 25px;
   width: 50%;
 }
 
+.checkbox {
+  margin: 20px 0;
+}
 
 footer {
   text-align: center;

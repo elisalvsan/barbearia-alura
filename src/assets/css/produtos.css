@@ -1,15 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Playfair Display', serif;
+}
+
 header {
   background-color: #cccccc;
   padding: 20px 0;
 }
 
-.container-header{
+.container-header {
   position: relative;
   width: 940px;
   margin: 0 auto;
 }
 
-nav{
+nav {
   position: absolute;
   top: 110px;
   right: 0;
@@ -28,18 +34,18 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover{
-  color:orange;
+nav a:hover {
+  color: orange;
   text-decoration: underline;
 }
 
-.produtos{
+.produtos {
   width: 940px;
   margin: 0 auto;
   padding: 50px 0;
 }
 
-.produtos li{
+.produtos li {
   display: inline-block;
   text-align: center;
   width: 30%;
@@ -51,37 +57,41 @@ nav a:hover{
   border-radius: 10px;
 }
 
-.produtos li:hover{
+.produtos li:hover {
   border-color: orange;
 }
 
-.produtos li:active{
+.produtos li:active {
   border-color: green;
 }
 
-.produtos li:hover h2{
+.produtos li:hover h2 {
   font-size: 34px;
 }
 
-.produtos h2{
+.produtos h2 {
   font-size: 30px;
   font-weight: bold;
 }
 
-.produto-descricao{
+.produto-descricao {
   font-size: 18px;
-
 }
 
-.produto-preco{
+.produto-preco {
   font-size: 22px;
   font-weight: bold;
   margin-top: 10px;
 }
 
-footer{
+footer {
   text-align: center;
-  background-image:url(../img/bg.jpg);
+  background-image: url(../img/bg.jpg);
   padding: 40px 0;
+}
 
+.copyright{
+  color: white;
+  font-size: 13px;
+  margin-top: 20px;
 }

@@ -187,6 +187,10 @@ footer {
     text-align: center;
   }
 
+  nav a {
+    font-size: 19px;
+  }
+
   .input-padrao,
   .formulario label,
   .div-horario {

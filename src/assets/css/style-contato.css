@@ -191,6 +191,10 @@ footer {
     font-size: 19px;
   }
 
+  nav li{
+    display: inline;
+  }
+
   .input-padrao,
   .formulario label,
   .div-horario {

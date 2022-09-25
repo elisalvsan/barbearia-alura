@@ -10,7 +10,7 @@ Rápida descrição do objetivo de fazer esse projeto
 | :fire: Desafio     | HTML5 e CSS3 parte 2
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![](https://github.com/elisalvsan/barbearia-alura/blob/main/src/assets/img/vtrine-dev/barbearia.png?raw=true#vitrinedev)
 
 ## Detalhes do projeto
 
@@ -22,5 +22,13 @@ Projeto desenvolvido durante o curso de HTML5 e CSS3 parte 2, ministrada pelo pr
 - CSS
 
 ### Preview
+
+#### Desktop
+
+<img src="src/assets/img/vtrine-dev/barbearia.png">
+
+#### Mobile
+
+<img src="src/assets/img/vtrine-dev/barbearia-phone.jpeg">
 
 Você pode acessar o site por aqui [Barbearia Alura](https://elisalvsan.github.io/barbearia-alura/)
